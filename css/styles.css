@@ -1,0 +1,57 @@
+body{
+  background-color: whitesmoke;
+}
+
+/* block */
+.btn{
+  text-decoration: none;
+  background-color: #FFF;
+  color: #888;
+  border-radius: 5px;
+  border: none;
+  display: inline-block;
+  margin: 10px;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 10px 5px;
+}
+
+/* element */
+.btn__price{
+  color: #FFF;
+  padding-right: 12px;
+  padding-left: 12px;
+  margin: -10px;
+  font-weight: 600;
+  background-color: #333;
+  opacity: 0.4;
+  border-radius: 5px 0 0 5px;
+}
+
+/* element */
+.btn__text{
+  padding: 0 10px;
+  border-radius: 0 5px 5px 0;
+}
+
+/* modifier */
+.btn--big{
+  font-size: 28px;
+  padding: 10px;
+  font-weight: 400;
+}
+
+/* modifier */
+.btn--orange{
+  border-color: #FF4136;
+  color: #FFF;
+  background-color: #FF4136;
+}
+
+/* modifier */
+.btn--blue{
+  border-color: darkblue;
+  color: crimson;
+  background-color: darkblue;
+}
